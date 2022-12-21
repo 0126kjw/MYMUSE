@@ -65,7 +65,7 @@
     -   [초안](https://www.figma.com/file/f6jBN0vKnA24rsIQpCDbAr/9gle?node-id=0%3A1&t=I6kS7uY0JdM56gkA-0)
 -   사이트맵
     <br />
-    <img src="/uploads/55899764e430464ac87d9af59934ccfa/9gle.drawio.png" width="619.5" height="504">
+    ![9gle drawio](https://user-images.githubusercontent.com/108377235/208905331-ef147e23-4b05-4323-950f-ca9335175d0b.png)
 
 ## 4. 기술
 
