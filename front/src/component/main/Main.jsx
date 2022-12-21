@@ -41,7 +41,7 @@ import { Get } from 'src/utils/api';
 
 const Main = () => {
 	const router = useRouter();
-	const [satisfaction, setSatisfaction] = useState(0);
+	const [satisfaction, setSatisfaction] = useState(95);
 	// InfoModal on off 처리
 	const InfoModalRef = useRef();
 	const [isInfoModalOn, setIsInfoModalOn] = useState(false);
@@ -57,13 +57,13 @@ const Main = () => {
 		};
 	});
 
-	const getSatisfaction = async () => {
-		const res = await Get(['chatbots', 'satisfaction']);
-		setSatisfaction(res.goodFeeling);
-	};
-	useEffect(() => {
-		getSatisfaction();
-	}, []);
+	// const getSatisfaction = async () => {
+	// 	const res = await Get(['chatbots', 'satisfaction']);
+	// 	setSatisfaction(res.goodFeeling);
+	// };
+	// useEffect(() => {
+	// 	getSatisfaction();
+	// }, []);
 
 	return (
 		<>
@@ -111,7 +111,7 @@ const Main = () => {
 				<Section color={cssUnit.backgroundColors.LightBlack}>
 					<Wrap>
 						<AutoTyper
-							sentence={`직접 검색하거나 ${satisfaction}%의 긍정 후기를 받은 AI에게 모르는 부분을 물어보세요!`}
+							sentence={`직접 검색하거나 ${satisfaction}%(예시)의 긍정 후기를 받은 AI에게 모르는 부분을 물어보세요!`}
 							color={cssUnit.backgroundColors.White}
 						/>
 						<AiContainer>
