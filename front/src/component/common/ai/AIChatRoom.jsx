@@ -114,6 +114,8 @@ const AIChatRoom = ({ setBotMode, botMode }) => {
 				<div className='AImodal-Outer'>
 					<div className='AImodal-Inner'>
 						<div className='AIsec2'>
+							<div>현재 AI 챗봇기능은 사용하실 수 없습니다.</div>
+							<div className='emptyBox'></div>
 							<div className='msgFromAI'>
 								<span className='mm'>
 									MY<span className='gold'>MUSE</span>
