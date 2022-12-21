@@ -9,7 +9,7 @@
 -   주제 : 인공지능 웹 서비스 프로젝트
 -   목표 : 서울 내 박물관 & 미술관 정보를 하나의 웹사이트에서 쉽게 접근할 수 있는 플랫폼
 -   api 문서 : [바로 가기](https://app.swaggerhub.com/apis-docs/0126kjw/MYMUSE-API/1.0)
--   URL: [바로 가기](http://kdt-ai5-team09.elicecoding.com/)
+-   URL: [바로 가기](https://melodious-hamster-5020bd.netlify.app)
 
 ## 2. 팀원 소개
 
